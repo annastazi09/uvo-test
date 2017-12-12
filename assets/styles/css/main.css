@@ -1,4 +1,78 @@
+@font-face {
+  font-family: Lato-Regular;
+  src: url(/assets/fonts/Lato/LatoRegular.ttf); }
+@font-face {
+  font-family: Lato-Bold;
+  src: url(/assets/fonts/Lato/LatoBold.ttf); }
+@font-face {
+  font-family: Lato-Light;
+  src: url(/assets/fonts/Lato/LatoLight.ttf); }
 body {
-  background: #F9F9F9; }
+  background: #F9F9F9;
+  font-family: Lato-Regular;
+  margin: 0;
+  font-size: 0.875rem;
+  width: auto; }
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  box-shadow: 0px 8px 10px -8px lightgray; }
+  header .left-nav,
+  header .right-nav {
+    flex-wrap: wrap;
+    display: inline-block; }
+    header .left-nav .main-nav,
+    header .right-nav .main-nav {
+      display: flex;
+      margin: 0; }
+      header .left-nav .main-nav .button,
+      header .right-nav .main-nav .button {
+        border: 1px solid #3F94D7;
+        padding: 10px;
+        border-radius: 20px; }
+        header .left-nav .main-nav .button .plus-icon,
+        header .right-nav .main-nav .button .plus-icon {
+          background: url("/assets/img/plus.png") center no-repeat;
+          width: 10px;
+          height: 10px; }
+      header .left-nav .main-nav .container-price,
+      header .right-nav .main-nav .container-price {
+        background: #F8F7F7;
+        padding: 10px;
+        border-radius: 3px; }
+        header .left-nav .main-nav .container-price .price1,
+        header .right-nav .main-nav .container-price .price1 {
+          font-size: 0.75rem;
+          color: grey; }
+        header .left-nav .main-nav .container-price .price2,
+        header .right-nav .main-nav .container-price .price2 {
+          font-size: 0.75rem;
+          color: lightgray;
+          padding-right: 10px; }
+      header .left-nav .main-nav .active,
+      header .right-nav .main-nav .active {
+        background: #F7FCFF; }
+      header .left-nav .main-nav .logo,
+      header .right-nav .main-nav .logo {
+        background: url("/assets/img/logo.png") center no-repeat;
+        width: 103px;
+        height: 19px;
+        margin-left: -35px; }
+      header .left-nav .main-nav a,
+      header .right-nav .main-nav a {
+        padding: 25px;
+        color: #3F94D7;
+        display: block;
+        text-decoration: none; }
+
+li {
+  list-style-type: none; }
 
 /*# sourceMappingURL=main.css.map */

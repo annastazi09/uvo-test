@@ -1,3 +1,73 @@
+@import "fonts.scss";
 body {
     background: #F9F9F9;
+    font-family: Lato-Regular;
+    margin: 0;
+    font-size: 0.875rem;
+    width: auto;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    box-shadow: 0px 8px 10px -8px lightgray;
+    .left-nav,
+    .right-nav {
+        flex-wrap: wrap;
+        display: inline-block;
+        .main-nav {
+            display: flex;
+            margin: 0;
+            .button {
+                .plus-icon {
+                    background: url('/assets/img/plus.png') center no-repeat;
+                    width: 10px;
+                    height: 10px;
+                }
+                border: 1px solid #3F94D7;
+                padding: 10px;
+                border-radius: 20px;
+            }
+            .container-price {
+                background: #F8F7F7;
+                padding: 10px;
+                border-radius: 3px;
+                .price1 {
+                    font-size: 0.75rem;
+                    color: grey;
+                }
+                .price2 {
+                    font-size: 0.75rem;
+                    color: lightgray;
+                    padding-right: 10px;
+                }
+            }
+            .active {
+                background: #F7FCFF;
+            }
+            .logo {
+                background: url('/assets/img/logo.png') center no-repeat;
+                width: 103px;
+                height: 19px;
+                margin-left: -35px;
+            }
+            a {
+                padding: 25px;
+                color: #3F94D7;
+                display: block;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+li {
+    list-style-type: none;
 }
