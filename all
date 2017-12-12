@@ -1,0 +1,4 @@
+
+cd Desktop/uvo-test/assets/styles/scss
+//command
+sass -w main.scss:../css/main.css

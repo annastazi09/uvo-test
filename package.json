@@ -1,0 +1,13 @@
+{
+    "name": "uvo",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Uvo test work",
+    "repository": "https://github.com/annastazi09/uvo-test.git",
+    "license": "MIT",
+    "devDependencies": {
+        "live-server": "^1.2.0"
+    },
+    "dependencies": {},
+    "scripts": {}
+}
